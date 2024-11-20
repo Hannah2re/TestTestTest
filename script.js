@@ -16,7 +16,7 @@ function initializeGame() {
     const missionText = document.getElementById("mission-text");
     const randomWord = getRandomMission();
     missionText.textContent = `Make a person say "${randomWord}". 
-    You can’t let them know your mission...`;
+    You can’t let them know your secret mission.`;
 }
 
 function markSuccess() {
