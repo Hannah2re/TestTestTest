@@ -3,14 +3,23 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    margin: 0;
+    height: 100%; /* 화면 전체에 맞게 설정 */
 }
 
 #game-container {
     padding: 2%;
     border: 1.5px solid;
-    margin-top: 1%; /* 이미지와 상자 간격 추가 */
+    margin-top: 2%; /* 이미지와 상자 간격을 퍼센트로 조정 */
+    width: 60%; /* 화면 너비의 75%로 설정 */
 }
 
 #show-content-button{
   margin-top: 1%;
+}
+
+img {
+    width: 70%; /* 화면 너비의 70%로 이미지 크기 설정 */
+    max-width: 300px; /* 이미지 크기 제한 */
+    height: auto; /* 이미지 비율에 맞게 높이 조정 */
 }
