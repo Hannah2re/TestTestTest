@@ -1,0 +1,17 @@
+<head>
+    <title>Tell me, Please!</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <H1>You are this person.</H1>
+    <img src = "https://media.gettyimages.com/id/523007178/photo/secret-agent-on-a-stake-out.jpg?s=612x612&w=gi&k=20&c=cb-7Fx5GD7PYrXOCWR1TchcKy44bhffmaGnkD3SPufQ=" width = 300>
+    <button id="show-content-button" onclick="showContent()">Hidden Mission</button>
+  
+    <div id="game-container" style="display: none;">
+        <p id="mission-text">Make a person say "Happy".</p>
+        <button id="success-button" onclick="markSuccess()">I did!</button>
+        <p id="success-message" style="display: none; color: green;">Success! You've completed the mission.</p>
+    </div>
+</body>
